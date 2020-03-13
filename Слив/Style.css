@@ -1,0 +1,172 @@
+
+
+body{
+
+transition-duration:1s;
+background: linear-gradient(45deg,  #2F80ED  0%, #56CCF2 51%,#2F80ED   100%), 
+url(100.png) 40% 40% no-repeat fixed;
+  
+}
+
+
+.d1{
+   align-items: left;
+	border-radius: 35px;
+	border:solid #F1F2F2 0.5px; 
+	width: 350px;
+
+}
+
+div{
+  align-items: left;
+	 content: "";
+	-webkit-box-shadow:0px 0px 19px rgba(0,173,255,0.50);
+-moz-box-shadow: 0px 0px 19px rgba(0,173,255,0.50);
+box-shadow: 0px 0px 19px rgba(0,173,255,0.50);
+background-color: white;
+}
+
+.textShineBlack {
+  font-size: 17px;
+background-image: linear-gradient(to right,  #2F80ED  0%, #56CCF2 51%,#2F80ED   100%);
+  -webkit-background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+   transition-duration: 0.3s;
+  background-size: 200% auto;
+  animation: textShine 5s ease-in-out infinite alternate;
+}
+
+.textShineBlack:hover {
+ 
+text-shadow: 0px 0px 19px rgba(0,173,255);
+
+}
+
+@keyframes textShine {
+  to {
+    background-position: 200%;
+  }
+}
+
+h1{
+
+	margin: 15px;
+	font-family:montserrat;
+	font-size: 24px;
+background: #56CCF2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(45deg, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(45deg, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition-duration: 0.5s;
+}
+hr{
+   box-shadow: 0 0 10px rgba(0,0,0,0.25);
+}
+h4{
+  color: white;
+    font-family:montserrat;
+  font-size: 24px;
+  text-shadow: 0 0 10px rgba(0,0,0,0.25);
+}
+
+h1:hover{
+	margin: 15px;
+	font-family:montserrat;
+	font-size: 24px;
+text-decoration:underline;
+text-shadow: 0px 0px 19px rgba(0,173,255,0.50);
+}
+h3{
+	color: gray;
+	margin: 15px;
+	font-family:montserrat;
+	font-size: 15px;
+}
+h5{
+  
+  width: 210px;
+  border-radius: 75px;
+
+
+}
+.shadowt{
+font-size: 16px;
+background: #56CCF2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(45deg, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(45deg, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.shadowt:hover{
+  text-shadow: 0px 0px 19px rgba(0,173,255);
+background: #56CCF2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(45deg, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(45deg, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition-duration: 1s;
+}
+
+
+a{
+
+
+  text-decoration: none;
+  font-family: Montserrat;
+}
+
+.headimg
+{
+border-radius: 1000px;
+
+}
+h2{
+
+
+  
+  transition: 1.5s;
+  background-size: 200% auto;
+  color: white;
+-webkit-box-shadow:0px 0px 19px rgba(0,173,255,0.50);
+-moz-box-shadow: 0px 0px 19px rgba(0,173,255,0.50);
+box-shadow: 0px 0px 19px rgba(0,173,255,0.50);
+  border-radius: 35px;
+  cursor: pointer;
+  font-weight: 600;
+     font-family: "Montserrat";
+  border-radius: 35px;
+  padding: 10px 24px;
+
+  border: none;
+
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+ 
+
+  transition: 0.3s;
+  display: inline-block;
+ 
+  cursor: pointer;
+width: 250px;
+transition-duration: 1s;
+  background-image: linear-gradient(to right,  #2F80ED  0%, #56CCF2 51%,#2F80ED   100%);
+
+}
+a{
+	text-decoration: none;
+}
+
+h2:hover{
+-webkit-box-shadow:0px 0px 19px blue 0.50);
+-moz-box-shadow: 0px 0px 19px blue 0.50;
+box-shadow: 0px 0px 19px blue 0.50;
+  color: white;
+  background-position: right center; /* изменить направление движения цвета можно здесь */
+
+}
